@@ -1,0 +1,19 @@
+{
+	"name": "ds_json_adls",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "conf.json",
+				"fileSystem": "conf"
+			}
+		},
+		"schema": {}
+	}
+}

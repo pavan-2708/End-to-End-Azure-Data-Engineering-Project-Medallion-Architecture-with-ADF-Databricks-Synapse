@@ -1,0 +1,16 @@
+{
+	"name": "ds_azsql_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azsql_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "customers"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
